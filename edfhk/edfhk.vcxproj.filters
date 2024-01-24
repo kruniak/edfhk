@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\utils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx\stdafx.cpp">
+      <Filter>stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dllwrapper\dllwrapper.cpp">
+      <Filter>src\dllwrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx11\dx11hk.cpp">
+      <Filter>src\dx11</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx\stdafx.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx\targetver.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game\game_structs.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dx11\dx11hk.h">
+      <Filter>src\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dx11\shaders\compile.h">
+      <Filter>src\dx11\shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def" />
+    <None Include="src\dllwrapper\wrapper_shims.inc">
+      <Filter>src\dllwrapper</Filter>
+    </None>
+    <None Include="src\dllwrapper\shims.inc">
+      <Filter>src\dllwrapper</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{0615e9c1-8485-47bf-b9d4-4f567649d911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stdafx">
+      <UniqueIdentifier>{68d5af12-4c4d-4973-986f-c09fbda7b901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dllwrapper">
+      <UniqueIdentifier>{faca140b-e79b-4ba8-b204-d168b6c37c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dx11">
+      <UniqueIdentifier>{e9a2786b-35df-41c9-8a50-85d3422cc33a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{78f8e5e4-a23a-4519-a638-9f7ab35ce01d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dx11\old">
+      <UniqueIdentifier>{553ccbf6-f0b2-4dd6-81a2-5cf9d5dd9b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dx11\shaders">
+      <UniqueIdentifier>{f35c8112-cf4b-4cca-b940-34d8972788eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="src\dllwrapper\shims.asm">
+      <Filter>src\dllwrapper</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="src\dx11\shaders\toon.hlsl">
+      <Filter>src\dx11\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="src\dx11\shaders\blur.hlsl">
+      <Filter>src\dx11\shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
